@@ -1,0 +1,8 @@
+{
+	"name": "rn-airbnb-eslint-typescript-template",
+	"version": "1.0.0",
+	"description": "React Native Template",
+	"repository": "git@github.com:krishnabose02/rn-airbnb-eslint-typescript-template.git",
+	"author": "Krishna Bose <krishna.bose02@gmail.com>",
+	"license": "MIT"
+}

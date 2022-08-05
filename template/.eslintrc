@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    // "@typescript-eslint/no-loop-func":["off"],
+    // "@typescript-eslint/no-redeclare":["off"],
+    // "@typescript-eslint/no-shadow":["off"],
+    "global-require": 0,
+    "no-console": "off"
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "prettier",
+    "plugin:jest/recommended"
+  ],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier", "jest"]
+}
