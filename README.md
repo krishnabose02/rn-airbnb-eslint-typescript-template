@@ -17,6 +17,8 @@
 
 ## Using the tempate
 
-just do
+just run the following in your terminal
 
-`npx react-native init YourAppName --template https://github.com/krishnabose02/rn-airbnb-eslint-typescript-template.git`
+```
+npx react-native init YourAppName --template https://github.com/krishnabose02/rn-airbnb-eslint-typescript-template.git
+```
